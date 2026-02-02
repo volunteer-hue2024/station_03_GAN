@@ -1,5 +1,4 @@
-# GAN -Generator Adversial Network 
-### - station 3
+# GAN -Generator Adversial Network  - [ station 3]
 
 Here we have 2 models .
 Generator generates an image.
@@ -54,7 +53,7 @@ $$\min_{G} \max_{D} V(D, G) = \mathbb{E}_{x \sim p_{data}(x)} [\log D(x)] + \mat
 ## 5. Summary
 * **Real data** provides the goalpost.
 
-============================================================
+=================================================================================================================================================================
 
 Based on the provided AI program for generating faces with a Generative Adversarial Network (GAN), here is the functional algorithm and an explanation of its key variables.
 
