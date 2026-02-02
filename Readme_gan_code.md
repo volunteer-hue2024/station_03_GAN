@@ -1,5 +1,7 @@
 # Here is a line-by-line explanation of the code for generating faces using the pre-trained Generative Adversarial Network (GAN).
 
+[click for complete code](./10_Creative_AI_Generating_Art_with_Neural_Style_Transfer___Inference.ipynb)
+
 ### **1. Environment Setup & Model Loading**
 
 This section prepares the computer to run the AI and loads its "memory."
