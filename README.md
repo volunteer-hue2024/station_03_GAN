@@ -58,7 +58,8 @@ $$\min_{G} \max_{D} V(D, G) = \mathbb{E}_{x \sim p_{data}(x)} [\log D(x)] + \mat
 Based on the provided AI program for generating faces with a Generative Adversarial Network (GAN), here is the functional algorithm and an explanation of its key variables.
 
 # GAN 
-### 👉 1. [Click here to view Functional Algorithm for GAN](./Readme_face_generation_withGAN.md)
+### 👉 1. [Click here to view Functional Algorithm for GAN](./Readme_face_generation_withGAN.md) 
+[Click for code](./Face_Generation_with_GAN.ipynb)
 ### 👇 2. Functional Algorithm using a pre-trained model
 
 
