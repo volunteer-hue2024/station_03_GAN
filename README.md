@@ -61,8 +61,7 @@ Based on the provided AI program for generating faces with a Generative Adversar
 ### 👉 1. [Click here to view Functional Algorithm for GAN](./Readme_face_generation_withGAN.md) 
 [Click for code](./Face_Generation_with_GAN.ipynb)
 ### 👇 2. Functional Algorithm using a pre-trained model
-
-
+[click for code ](./10_Creative_AI_Generating_Art_with_Neural_Style_Transfer___Inference.ipynb)
 The program follows a streamlined process for generating synthetic images using a pre-trained model:
 
 1. **Environment Setup**: Configures the execution environment to run on the CPU by disabling visible GPU devices (`CUDA_VISIBLE_DEVICES = "-1"`).
@@ -95,8 +94,5 @@ In this program, the **Fake** data is the `generated_images` produced by the `ge
 * **Fake data** is the iteration.
 * **Success** is achieved when the "Fake" becomes indistinguishable from the "Real."
 
-* # Sample code
-Readme_gan_code.md
-
-
-
+* # How to use a pretrained GAN model
+  [Click for Line by line algorithm](./Readme_gan_pretrained.md)
