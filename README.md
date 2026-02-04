@@ -55,11 +55,6 @@ $$\min_{G} \max_{D} V(D, G) = \mathbb{E}_{x \sim p_{data}(x)} [\log D(x)] + \mat
 ## 5. Summary
 * **Real data** provides the goalpost.
 
-=================================================================================================================================================================
-
-Based on the provided AI program for generating faces with a Generative Adversarial Network (GAN), here is the functional algorithm and an explanation of its key variables.
-
-# GAN 
 ### 👉 1. [Click here to view Functional Algorithm for GAN](./Readme_face_generation_withGAN.md) 
 [Click for code](./Face_Generation_with_GAN.ipynb)
 ### 👇 2. Functional Algorithm using a pre-trained model
@@ -68,7 +63,7 @@ The program follows a streamlined process for generating synthetic images using 
 
 1. **Environment Setup**: Configures the execution environment to run on the CPU by disabling visible GPU devices (`CUDA_VISIBLE_DEVICES = "-1"`).
    
- [Otherwise it is CUDA_VISIBLE_DEVICES = "0": meaning: use only the first GPU or CUDA_VISIBLE_DEVICES = "0,1": meaning: use the first and second GPUs.] <br>
+             [Otherwise it is CUDA_VISIBLE_DEVICES = "0": meaning: use only the first GPU or CUDA_VISIBLE_DEVICES = "0,1": meaning: use the first and second GPUs.] <br>
 
 
 3. **Model Loading**: Loads a pre-trained Keras GAN generator model (`generator_100.h5`) from the local directory.
